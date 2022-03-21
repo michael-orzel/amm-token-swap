@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Token Swap",
+  "name": "AMM Token Swap",
+  "author": "Michael Orzel",
   "icons": [
     {
       "src": "favicon.ico",
