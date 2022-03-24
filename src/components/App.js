@@ -26,13 +26,13 @@ export default function App() {
 
       // Load Contracts
       const greeterAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3"
-      const greeter = new ethers.Contract(
+      const greeterContract = new ethers.Contract(
         greeterAddress,
         Greeter.abi,
         provider
       );
 
-      const message = await greeter.greet();
+      const message = await greeterContract.greet();
       console.log(message);
     } catch (error) {
       console.log(error);
